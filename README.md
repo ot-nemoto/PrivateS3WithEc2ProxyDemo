@@ -8,6 +8,8 @@
 
 ## 構成
 
+![構成](https://github.com/ot-nemoto/PrivateS3WithEc2ProxyDemo/blob/images/PrivateS3WithEc2ProxyDemo.png)
+
 ## デプロイ
 
 **Properties**
