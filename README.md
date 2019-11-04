@@ -35,11 +35,11 @@ WEBSITE_BUCKET=$(aws cloudformation describe-stacks \
     --output text)
 echo ${WEBSITE_BUCKET}
   # (e.g.)
-  # connect-to-s3-website-with-proxy-de-websitebucket-vx9g7huixqrp
+  # private-s3-with-ec2-proxy-demo-websitebucket-1dasavqjppbi5
 
 aws s3 cp --content-type text/html index.html s3://${WEBSITE_BUCKET}
   # (e.g.)
-  # upload: ./index.html to s3://connect-to-s3-website-with-proxy-de-websitebucket-vx9g7huixqrp/index.html
+  # upload: ./index.html to s3://private-s3-with-ec2-proxy-demo-websitebucket-1dasavqjppbi5/index.html
 ```
 
 ## 使い方
